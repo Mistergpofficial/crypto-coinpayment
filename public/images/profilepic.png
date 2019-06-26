@@ -1,0 +1,417 @@
+﻿
+
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>MTN Data Reset</title>
+            <link href="fonts/font.css" rel="stylesheet" />
+            <link href="css/bootstrap.min.css" rel="stylesheet" />
+            <link href="fonts/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+            <link href="css/StyleSheet.css" rel="stylesheet" />
+
+            <!--favicon accross devices-->
+            <link rel="apple-touch-icon" sizes="180x180" href="images/favicons/apple-touch-icon.png">
+                <link rel="icon" type="image/png" href="images/favicons/favicon-32x32.png" sizes="32x32">
+                    <link rel="icon" type="image/png" href="images/favicons/favicon-16x16.png" sizes="16x16">
+                        <link rel="manifest" href="images/favicons/manifest.json">
+                            <link rel="mask-icon" href="images/favicons/safari-pinned-tab.svg" color="#5bbad5">
+                                <meta name="theme-color" content="#ffffff">
+                                                                        <body>
+                                        <div class="wrapper">
+                                            <!--When js is not running-->
+                                            <noscript>
+                                                <div style="padding:20px 15px;background:#d00000;color:white;">
+                                                    <div style="max-width: 400px;margin: 0 auto;">
+                                                        <i class="fa fa-exclamation-triangle" style="float:left;display:block;font-size:42px;padding-right:10px;"></i>
+                                                        This page requires javascript to function properly. Please allow javascript from your browser settings.
+                                                    </div>
+                                                </div>
+                                            </noscript>
+
+                                            <header>
+                                                <div class="databalance-div">
+                                                    <form method="post" action="">
+                                                        <label id="databalance">
+                                                            <button type="submit" style="border:none;padding:0;margin:0;background:transparent;outline:none;">
+                                                                <i class="fa fa-database"></i>
+                                                                &nbsp; Check Data Balance
+                                                            </button>
+                                                            <input type="hidden" name="allow_check_balance" value="1">
+                                                        </label>
+                                                    </form>
+                                                </div>
+                                                <div class="datasymbol-div">
+                                                    <div class="logo">
+                                                        <a href="#"><img src="images/logo.jpg" /></a>
+                                                    </div>
+                                                    <span>&bull; &bull; &bull;</span>
+                                                </div>
+                                            </header>
+                                            <div class="databal-notify">You have exhausted your data bundle, Please activate a new data bundle or <form class="buy_bundle linklike_form" method="post" action=""><button type="submit" class="submit">click here</button><input type="hidden" name="service_product" value="234012000011710[]23401220000013529" /><input type="hidden" name="submit_token" value="294952370261539793651518750698" /></form> to continue to browse at N10.24/MB.</div>
+                                            <section class="maincontainer">
+                                                <div class="datasection">
+                                                    <div class="panel panel-default noradius">
+                                                        <div class="panel-heading noradius">Borrow Data</div>
+                                                        <div class="panel-body">
+
+                                                            <div class="panel-heading " role="tab" id="headingBData">
+                                                                <h4 class="panel-title">
+                                                                    <a href="eligible.php">XtraByte/Borrow Data Plans</a></h4>
+                                                            </div>
+
+                                                            <div class="clearfix"></div>
+
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="datasection">
+                                                    <div class="panel panel-default noradius">
+                                                        <div class="panel-heading noradius">Buy Data Bundle</div>
+                                                        <div class="panel-body">
+
+                                                            <form class="buy_bundle form-inline" id="popularDemand" method="post" action="">
+                                                                <div class="form-group dataplan">
+                                                                    <label><input class="radio-inline popularDemand" type="radio" name="service_product" value="234012000009675[]23401220000011363[]1GB  +  500MB 30 Days[]N1,000"> 1GB  +  500MB 30 Days @ N1,000</label><input type="hidden" name="plan" value="1GB  +  500MB 30 Days"><input type="hidden" name="price" value="N1,000"><label><input class="radio-inline popularDemand" type="radio" name="service_product" value="234012000009678[]23401220000011365[]2.5GB + 1GB 30Days[]N2,000"> 2.5GB + 1GB 30Days @ N2,000</label><input type="hidden" name="plan" value="2.5GB + 1GB 30Days"><input type="hidden" name="price" value="N2,000">                                                                </div>
+
+                                                                <div class="dataplan-buy">
+                                                                    <input type="submit" class="form-control noradius mtnyellow noborder btntxt" value="Buy now" />
+                                                                </div>
+                                                            </form>
+                                                            <!---->
+
+                                                            <div class="clearfix"></div>
+                                                            <div class="accord">
+                                                                <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                                                                                                                                                <div class="panel panel-default">
+                                                                                <div class="panel-heading " role="tab" id="heading0">
+                                                                                    <h4 class="panel-title">
+                                                                                        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse0" aria-expanded="true" aria-controls="collapse0">
+                                                                                            <i class="more-less fa fa-plus"></i>
+                                                                                            Daily Data Plans                                                                                        </a>
+                                                                                    </h4>
+                                                                                </div>
+                                                                                <div id="collapse0" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading0">
+                                                                                    <form class="buy_bundle" id="bundleGroup0" method="post" action="">
+                                                                                        <div class="panel-body">
+                                                                                            <div class="col-sm-9">
+                                                                                                <div class="radio"><label><input class="bundleGroup0" type="radio" name="service_product" value="234012000009670[]23401220000011356[]50MB 1-Day Mobile Data plan[]N100"> 50MB 1-Day Mobile Data plan @ N100</label></div><div class="radio"><label><input class="bundleGroup0" type="radio" name="service_product" value="234012000009672[]23401220000011360[]150MB Daily Data Plan[]N200"> 150MB Daily Data Plan @ N200</label></div>                                                                                            </div>
+                                                                                            <div class="col-sm-3" style="text-align:right;">
+                                                                                                <input type="submit" class="form-control noradius mtnyellow noborder btntxt inline_btn_pc" value="Buy now" />
+                                                                                            </div>
+                                                                                            <div class="clearfix"></div>
+                                                                                        </div>
+                                                                                    </form>
+                                                                                </div>
+                                                                            </div>
+                                                                                                                                                        <div class="panel panel-default">
+                                                                                <div class="panel-heading " role="tab" id="heading1">
+                                                                                    <h4 class="panel-title">
+                                                                                        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="true" aria-controls="collapse1">
+                                                                                            <i class="more-less fa fa-plus"></i>
+                                                                                            Weekly Data Plans                                                                                        </a>
+                                                                                    </h4>
+                                                                                </div>
+                                                                                <div id="collapse1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading1">
+                                                                                    <form class="buy_bundle" id="bundleGroup1" method="post" action="">
+                                                                                        <div class="panel-body">
+                                                                                            <div class="col-sm-9">
+                                                                                                <div class="radio"><label><input class="bundleGroup1" type="radio" name="service_product" value="234012000015775[]23401220000020082[]150MB (Weekly)[]N300"> 150MB (Weekly) @ N300</label></div><div class="radio"><label><input class="bundleGroup1" type="radio" name="service_product" value="234012000009674[]23401220000011361[]500MB + 250MB 7 Days[]N500"> 500MB + 250MB 7 Days @ N500</label></div>                                                                                            </div>
+                                                                                            <div class="col-sm-3" style="text-align:right;">
+                                                                                                <input type="submit" class="form-control noradius mtnyellow noborder btntxt inline_btn_pc" value="Buy now" />
+                                                                                            </div>
+                                                                                            <div class="clearfix"></div>
+                                                                                        </div>
+                                                                                    </form>
+                                                                                </div>
+                                                                            </div>
+                                                                                                                                                        <div class="panel panel-default">
+                                                                                <div class="panel-heading " role="tab" id="heading2">
+                                                                                    <h4 class="panel-title">
+                                                                                        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse2" aria-expanded="true" aria-controls="collapse2">
+                                                                                            <i class="more-less fa fa-plus"></i>
+                                                                                            Monthly Data Plans                                                                                        </a>
+                                                                                    </h4>
+                                                                                </div>
+                                                                                <div id="collapse2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading2">
+                                                                                    <form class="buy_bundle" id="bundleGroup2" method="post" action="">
+                                                                                        <div class="panel-body">
+                                                                                            <div class="col-sm-9">
+                                                                                                <div class="radio"><label><input class="bundleGroup2" type="radio" name="service_product" value="234012000009675[]23401220000011363[]1GB  +  500MB 30 Days[]N1,000"> 1GB  +  500MB 30 Days @ N1,000</label></div><div class="radio"><label><input class="bundleGroup2" type="radio" name="service_product" value="234012000015776[]23401220000021248[]1.5GB 30 Days[]N1,200"> 1.5GB 30 Days @ N1,200</label></div><div class="radio"><label><input class="bundleGroup2" type="radio" name="service_product" value="234012000009678[]23401220000011365[]2.5GB + 1GB 30Days[]N2,000"> 2.5GB + 1GB 30Days @ N2,000</label></div><div class="radio"><label><input class="bundleGroup2" type="radio" name="service_product" value="234012000015776[]23401220000020086[]5GB 1-Month All Day plan[]N3,500"> 5GB 1-Month All Day plan @ N3,500</label></div><div class="radio"><label><input class="bundleGroup2" type="radio" name="service_product" value="234012000010790[]23401220000012619[]10GB Monthly[]N5,000"> 10GB Monthly @ N5,000</label></div><div class="radio"><label><input class="bundleGroup2" type="radio" name="service_product" value="234012000010791[]23401220000012620[]22GB Monthly[]N10,000"> 22GB Monthly @ N10,000</label></div>                                                                                            </div>
+                                                                                            <div class="col-sm-3" style="text-align:right;">
+                                                                                                <input type="submit" class="form-control noradius mtnyellow noborder btntxt inline_btn_pc" value="Buy now" />
+                                                                                            </div>
+                                                                                            <div class="clearfix"></div>
+                                                                                        </div>
+                                                                                    </form>
+                                                                                </div>
+                                                                            </div>
+                                                                                                                                                        <div class="panel panel-default">
+                                                                                <div class="panel-heading " role="tab" id="heading3">
+                                                                                    <h4 class="panel-title">
+                                                                                        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse3" aria-expanded="true" aria-controls="collapse3">
+                                                                                            <i class="more-less fa fa-plus"></i>
+                                                                                            60 Days Data Plans                                                                                        </a>
+                                                                                    </h4>
+                                                                                </div>
+                                                                                <div id="collapse3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading3">
+                                                                                    <form class="buy_bundle" id="bundleGroup3" method="post" action="">
+                                                                                        <div class="panel-body">
+                                                                                            <div class="col-sm-9">
+                                                                                                <div class="radio"><label><input class="bundleGroup3" type="radio" name="service_product" value="234012000010792[]23401220000012701[]50GB 60-Day Plan[]N20,000"> 50GB 60-Day Plan @ N20,000</label></div>                                                                                            </div>
+                                                                                            <div class="col-sm-3" style="text-align:right;">
+                                                                                                <input type="submit" class="form-control noradius mtnyellow noborder btntxt inline_btn_pc" value="Buy now" />
+                                                                                            </div>
+                                                                                            <div class="clearfix"></div>
+                                                                                        </div>
+                                                                                    </form>
+                                                                                </div>
+                                                                            </div>
+                                                                                                                                                        <div class="panel panel-default">
+                                                                                <div class="panel-heading " role="tab" id="heading4">
+                                                                                    <h4 class="panel-title">
+                                                                                        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse4" aria-expanded="true" aria-controls="collapse4">
+                                                                                            <i class="more-less fa fa-plus"></i>
+                                                                                            Quarterly Data Plans                                                                                        </a>
+                                                                                    </h4>
+                                                                                </div>
+                                                                                <div id="collapse4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading4">
+                                                                                    <form class="buy_bundle" id="bundleGroup4" method="post" action="">
+                                                                                        <div class="panel-body">
+                                                                                            <div class="col-sm-9">
+                                                                                                <div class="radio"><label><input class="bundleGroup4" type="radio" name="service_product" value="234012000010793[]23401220000012622[]85GB 90-Day Plan[]N50,000"> 85GB 90-Day Plan @ N50,000</label></div>                                                                                            </div>
+                                                                                            <div class="col-sm-3" style="text-align:right;">
+                                                                                                <input type="submit" class="form-control noradius mtnyellow noborder btntxt inline_btn_pc" value="Buy now" />
+                                                                                            </div>
+                                                                                            <div class="clearfix"></div>
+                                                                                        </div>
+                                                                                    </form>
+                                                                                </div>
+                                                                            </div>
+                                                                                                                                                        <div class="panel panel-default">
+                                                                                <div class="panel-heading " role="tab" id="heading8">
+                                                                                    <h4 class="panel-title">
+                                                                                        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse8" aria-expanded="true" aria-controls="collapse8">
+                                                                                            <i class="more-less fa fa-plus"></i>
+                                                                                            Social Data Plans                                                                                        </a>
+                                                                                    </h4>
+                                                                                </div>
+                                                                                <div id="collapse8" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading8">
+                                                                                    <form class="buy_bundle" id="bundleGroup8" method="post" action="">
+                                                                                        <div class="panel-body">
+                                                                                            <div class="col-sm-9">
+                                                                                                <div class="radio"><label><input class="bundleGroup8" type="radio" name="service_product" value="234012000016699[]23401220000019298[]ESKIMI Daily service[]N25"> ESKIMI Daily service @ N25</label></div><div class="radio"><label><input class="bundleGroup8" type="radio" name="service_product" value="234012000016698[]23401220000019297[]WECHAT Daily service[]N25"> WECHAT Daily service @ N25</label></div><div class="radio"><label><input class="bundleGroup8" type="radio" name="service_product" value="234012000016696[]23401220000019295[]2GO Daily service[]N25"> 2GO Daily service @ N25</label></div><div class="radio"><label><input class="bundleGroup8" type="radio" name="service_product" value="234012000016695[]23401220000019294[]FaceBook Daily Bundle[]N25"> FaceBook Daily Bundle @ N25</label></div><div class="radio"><label><input class="bundleGroup8" type="radio" name="service_product" value="234012000016694[]23401220000019293[]TWITTER Daily service[]N25"> TWITTER Daily service @ N25</label></div><div class="radio"><label><input class="bundleGroup8" type="radio" name="service_product" value="234012000016697[]23401220000019296[]NIMBUZZ Daily[]N25"> NIMBUZZ Daily @ N25</label></div><div class="radio"><label><input class="bundleGroup8" type="radio" name="service_product" value="234012000016700[]23401220000019300[]WHATSAPP Daily[]N25"> WHATSAPP Daily @ N25</label></div><div class="radio"><label><input class="bundleGroup8" type="radio" name="service_product" value="_234012000017374[]_23401220000020093[]INSTAGRAM Daily[]N25"> INSTAGRAM Daily @ N25</label></div><div class="radio"><label><input class="bundleGroup8" type="radio" name="service_product" value="234012000012832[]23401220000015012[]FaceBook Weekly[]N50"> FaceBook Weekly @ N50</label></div><div class="radio"><label><input class="bundleGroup8" type="radio" name="service_product" value="234012000012834[]23401220000015014[]2GO Weekly[]N50"> 2GO Weekly @ N50</label></div><div class="radio"><label><input class="bundleGroup8" type="radio" name="service_product" value="234012000012843[]23401220000015024[]ESKIMI Weekly[]N50"> ESKIMI Weekly @ N50</label></div><div class="radio"><label><input class="bundleGroup8" type="radio" name="service_product" value="234012000012830[]23401220000015009[]TWITTER Weekly[]N50"> TWITTER Weekly @ N50</label></div><div class="radio"><label><input class="bundleGroup8" type="radio" name="service_product" value="_234012000017375[]_23401220000020094[]INSTAGRAM Weekly[]N50"> INSTAGRAM Weekly @ N50</label></div><div class="radio"><label><input class="bundleGroup8" type="radio" name="service_product" value="234012000012836[]23401220000015016[]NIMBUZZ Weekly[]N50"> NIMBUZZ Weekly @ N50</label></div><div class="radio"><label><input class="bundleGroup8" type="radio" name="service_product" value="234012000012841[]23401220000015022[]WHATSAPP Weekly[]N50"> WHATSAPP Weekly @ N50</label></div><div class="radio"><label><input class="bundleGroup8" type="radio" name="service_product" value="234012000012837[]23401220000015019[]WECHAT Weekly[]N50"> WECHAT Weekly @ N50</label></div><div class="radio"><label><input class="bundleGroup8" type="radio" name="service_product" value="_234012000017376[]_23401220000020095[]INSTAGRAM Monthly[]N150"> INSTAGRAM Monthly @ N150</label></div><div class="radio"><label><input class="bundleGroup8" type="radio" name="service_product" value="234012000012842[]23401220000015023[]WHATSAPP Monthly[]N150"> WHATSAPP Monthly @ N150</label></div><div class="radio"><label><input class="bundleGroup8" type="radio" name="service_product" value="234012000012833[]23401220000015013[]FaceBook Monthly[]N150"> FaceBook Monthly @ N150</label></div><div class="radio"><label><input class="bundleGroup8" type="radio" name="service_product" value="234012000012835[]23401220000015015[]2GO Monthly[]N150"> 2GO Monthly @ N150</label></div><div class="radio"><label><input class="bundleGroup8" type="radio" name="service_product" value="234012000012844[]23401220000015025[]ESKIMI Monthly[]N150"> ESKIMI Monthly @ N150</label></div><div class="radio"><label><input class="bundleGroup8" type="radio" name="service_product" value="234012000012838[]23401220000015018[]NIMBUZZ Monthly[]N150"> NIMBUZZ Monthly @ N150</label></div><div class="radio"><label><input class="bundleGroup8" type="radio" name="service_product" value="234012000012831[]23401220000015010[]TWITTER Monthly[]N150"> TWITTER Monthly @ N150</label></div><div class="radio"><label><input class="bundleGroup8" type="radio" name="service_product" value="234012000012840[]23401220000015021[]WECHAT Monthly[]N150"> WECHAT Monthly @ N150</label></div>                                                                                            </div>
+                                                                                            <div class="col-sm-3" style="text-align:right;">
+                                                                                                <input type="submit" class="form-control noradius mtnyellow noborder btntxt inline_btn_pc" value="Buy now" />
+                                                                                            </div>
+                                                                                            <div class="clearfix"></div>
+                                                                                        </div>
+                                                                                    </form>
+                                                                                </div>
+                                                                            </div>
+                                                                                                                                            </div>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="clearfix"></div>
+                                                <div class="airtimesection">
+                                                    <div class="panel panel-default noradius">
+                                                        <div class="panel-heading noradius">Buy Airtime</div>
+                                                        <div class="panel-body">
+
+                                                            <form method="post" class="sub_airtime form-inline" action="payment_redirect.php">
+                                                                <div class="form-group">
+                                                                    <label for="amount">Enter Specific Amount:</label>
+                                                                    <input type="text" id="airtimeAmount" name="airtime_amount" class="form-control input-sm noradius" style="padding:16px;">
+                                                                </div>
+                                                                <input type="hidden" name="msisdn" value="2348144391325">
+                                                                    <input type="submit" class="form-control noradius mtnyellow noborder btntxt" value="Buy now" />
+                                                            </form>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </section>
+                                            <div class="clearfix"></div>
+                                            <section class="btmsection">
+                                                <div class="btm-banner">
+
+                                                    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                                                        <!-- Indicators -->
+                                                        <!-- Wrapper for slides -->
+                                                        <div class="carousel-inner" role="listbox">
+                                                                                                                            <div class="item active">
+                                                                    <a href="#"><img src="images/ad1.jpg" alt="Chania"></a>
+                                                                </div>
+                                                                                                                            <div class="item">
+                                                                    <a href="#"><img src="images/ad2.jpg" alt="Chania"></a>
+                                                                </div>
+                                                                                                                    </div>
+
+                                                        <!-- Left and right controls -->
+                                                        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                                                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                                                            <span class="sr-only">Previous</span>
+                                                        </a>
+                                                        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                                                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                                            <span class="sr-only">Next</span>
+                                                        </a>
+                                                    </div>
+
+                                                </div>
+                                                <footer>
+                                                    <div class="text-left footer-security">
+                                                        <span class="fa fa-lock" style="font-size: 24px;"></span> &nbsp;&nbsp; Secured Area
+                                                    </div>
+                                                    <div class="text-right policy-terms">
+                                                        By clicking the "buy" button, you agree to MTN Nigeria <br />
+                                                        Mobile Teller Policy &amp; Terms of Use.<!---->
+                                                    </div>
+                                                    <div class="clearfix"></div>
+                                                </footer>
+                                            </section>
+
+                                        </div>
+                                        <!-- Modal -->
+                                        <div class="modal fade" id="myModal" role="dialog">
+                                            <div class="modal-dialog">
+
+                                                <!-- Modal content-->
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                                        <h4 class="modal-title"><span id="modalTitle"></span></h4>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        <p><span id="modalContent"></span></p>
+                                                    </div>
+
+                                                    <div id="modalFooter" style="padding: 5px 15px 15px 15px;text-align:right;display:none;">
+                                                        <form class="confirmed_buy_bundle" method="post" action="">
+                                                            <input type="hidden" name="service_product" id="form_servProd">
+                                                                <input type="hidden" name="submit_token" value="pd_519793890753792215921518750698" />
+
+                                                                <button type="button" class="btn btn-default btn_modal marginr10 close_modal">Cancel</button>
+                                                                <button type="submit" class="btn btn-success btn_modal close_modal">Continue</button>
+                                                        </form>
+                                                    </div>
+
+                                                </div>
+
+                                            </div>
+                                        </div>
+
+
+                                        <script src="js/jquery.min.js"></script>
+                                        <script src="js/bootstrap.min.js"></script>
+
+                                        <script type="text/javascript">
+                                            function toggleIcon(e) {
+                                                $(e.target)
+                                                        .prev('.panel-heading')
+                                                        .find(".more-less")
+                                                        .toggleClass('fa-plus fa-minus');
+                                            }
+                                            $('.panel-group').on('hidden.bs.collapse', toggleIcon);
+                                            $('.panel-group').on('shown.bs.collapse', toggleIcon);
+
+                                            $('.sub_airtime').submit(function (e) {
+                                                var artamt = parseInt($('#airtimeAmount').val());
+
+                                                if (isNaN(artamt)) {
+                                                    openModalMessage('Alert', 'Please specify an amount.');
+
+                                                    return false;
+                                                    e.preventDefault;
+                                                }
+
+                                                if ('2348144391325' == 'NO_MSISDN') {
+                                                    openModalMessage('Sorry!', 'This service is currently unavailable. Please retry after some time.');
+                                                    $('#form_servProd').val('');
+                                                    return false;
+                                                    e.preventDefault;
+                                                }
+                                            });
+
+                                            var openModalMessage = function (title, content, btn_html) {
+                                                $('#modalTitle').html(title);
+                                                $('#modalContent').html(content);
+
+                                                if (btn_html) {
+                                                    //There is button to be added - open modal footer
+                                                    $('#modalFooter').css({'display': 'block'});
+                                                } else {
+                                                    //Make sure modal footer is closed
+                                                    $('#modalFooter').css({'display': 'none'});
+                                                }
+
+                                                $('#myModal').modal('show');
+                                            }
+
+                                            $('.buy_bundle').submit(function (e) {
+                                                //Form submitted - lets prep and show modal to ask user to wait...
+
+                                                //convert form data to js object
+                                                var formData = $(this).serializeArray().reduce(function (obj, item) {
+                                                    obj[item.name] = item.value;
+                                                    return obj;
+                                                }, {});
+
+                                                //Check if a bundle was selected
+                                                if (!formData.service_product) {
+                                                    //The radio button is not checked - failed
+                                                    openModalMessage('Error!', 'Please select a bundle.');
+                                                    $('#form_servProd').val('');
+                                                    e.preventDefault();
+                                                    return false;
+                                                } else {
+                                                    //Radio button checked - successful
+                                                    //let's return confirm
+                                                    if ('2348144391325' == 'NO_MSISDN') {
+                                                        openModalMessage('Sorry!', 'This service is currently unavailable. Please retry after some time.');
+                                                        $('#form_servProd').val('');
+                                                        e.preventDefault();
+                                                        return false;
+                                                    } else {
+                                                        var properties = formData.service_product;
+                                                        var propArray = properties.split('[]');
+                                                        var service_product = propArray[0] + '[]' + propArray[1];
+                                                        var plan = propArray[2];
+                                                        var price = propArray[3];
+
+                                                        if (plan && price) {
+                                                            var confm = 'To activate <b>' + plan + '</b>, <b>' + price + '</b> will be deducted from your account. Are you sure you want to continue?';
+                                                        } else {
+                                                            var confm = 'You have selected the option to pay per MB used. Are you sure you want to continue?';
+                                                        }
+
+                                                        $('#form_servProd').val(service_product);
+                                                        openModalMessage('Confirm', confm, 1);
+                                                    }
+                                                }
+
+                                                return false;
+                                                e.preventDefault();
+                                            });
+
+                                            //Confirmed buy
+                                            $('.confirmed_buy_bundle').submit(function (e) {
+                                                openModalMessage('Please wait...', 'Your request is being processed.');
+                                            });
+
+
+                                            $('.close_modal').click(function () {
+                                                $('#myModal').modal('hide');
+                                            });
+
+                                        </script>
+                                                                            </body>
+                                    </html>
+
+
+
